@@ -1,0 +1,26 @@
+<%- include ("header") %>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h1 class="float-md-start mb-0">Movie Search</h1>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" href="https://charliealpha094.github.io/">Contact the developer</a>
+      </nav>
+    </div>
+  </header>
+  <!-- img src="images/movieimage.png" style="max-width: 40%"-->
+
+  <form action="/search" method="post">
+  <main class="px-3">
+    <h3>Find  your  movie  below</h3>
+    <p class="lead"></p>
+    <p class="lead">
+    <input type="text" class="form-control" placeholder="Movie Title" name="movieName">
+    <br>
+      <button class="btn btn-outline-secondary" type="submit">Go!</button>
+    </p>
+  </main>
+  </form>
+
+<%- include("footer") %>

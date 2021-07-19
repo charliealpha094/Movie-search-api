@@ -1,0 +1,60 @@
+/* Title section */
+.title {
+    font-family: 'Anton', sans-serif;
+    font-size: 3.2rem;
+    margin-top: 22px;
+    text-align: center;
+}
+
+
+h2,h3 {
+    font-family: 'Montserrat', cursive;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    .card-header {
+        
+        font-size: 2rem;
+    }
+
+    .rating-image {
+        height: 35px;
+    
+    }
+
+ }
+
+
+
+ /* Rating Section */
+#rating {
+    padding: 100px;
+    text-align: center;
+}
+
+rating-column {
+    padding: 5% 5% 5%;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+
+ /* Footer */
+ .footer {
+     text-align: center;
+     margin-top: 25px;
+ }
