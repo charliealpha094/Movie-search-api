@@ -24,10 +24,10 @@ app.get("/", (req, res) => {
 app.post("/search", (req, res) => {
 
     const movieName = req.body.movieName;
-    //const apikey = "b69ae9f8&";
-    //const url = "http://www.omdbapi.com/?apikey=" + apikey + movieName;
+    
+    apikey = ;
 
-    const url = "https://www.omdbapi.com/?apikey=86f9dde7&t="+movieName;
+    const url = "https://www.omdbapi.com/?apikey=" + apikey +movieName;
 
 
     axios.get(url).then(response => {
